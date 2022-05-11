@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+epicshit = "3DYSe7CBEmtkP6gDdGcoWiVkBioBFdBMy2rPAeVaX4wF"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "https://quiet-restless-moon.solana-devnet.quiknode.pro/f6c9bc6053ae0aaa6202555c155038dfb2b1abc9/"
+wallet = "/Users/raikan10/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
